@@ -1,9 +1,24 @@
 body {
   font-family: 'helvetica neue', arial, serif;
+  
   font-weight: 300;
-  background: url(kellogg-09.jpg) repeat;
-}
-#wrapper {
-  width: 960px;
+  color: white;
+  background-color: black;
+  width: 80%;
   margin: 20px auto;
+}
+
+#top-pic{ 
+text-align: center;
+}
+
+footer{
+font-family: 'helvetica neue', arial, serif;
+  font-size: small;
+  font-weight: 100;
+  color: gray;
+  background-color: black;
+    width: 960px;
+  margin: 20px auto;
+  border-top: groove;
 }
