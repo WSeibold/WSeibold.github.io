@@ -11,19 +11,23 @@ body {
 #top-pic{ 
 text-align: center;
 float: right;
+margin: 30px;
+height: 300px;
 }
 
 #pic-box{
   display:inline-block;
-  vertical-align: middle; 
+  vertical-align: middle;
+  margin: 20px; 
 }
 
 #cat-pic{
   display:inline-block;
   vertical-align: middle;
-  padding: 10px;
+  background-color: silver;
   border-radius: 10px ;
   border: 1px solid white;
+  padding: 10px;
   margin-left: 25px;
 }
 
@@ -38,16 +42,17 @@ float: right;
 #tux-pic{
   display:inline-block;
   vertical-align: middle;
+  background-color: silver;
+  border-radius: 10px ;
   margin-left: 40px;
   padding: 10px;
-  border-radius: 10px ;
   border: 1px solid white;
 }
 
 
 #subbody{
   margin-top: 40px;
-  font-family: 'Montserrat', arial, serif;
+  font-family: 'Montserrat', arial;
   font-weight: 400;
   color: white;
   background-color: black;
