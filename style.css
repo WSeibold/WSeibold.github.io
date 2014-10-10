@@ -4,12 +4,59 @@ body {
   font-weight: 300;
   color: white;
   background-color: black;
-  width: 70%;
+  width: 80%;
   margin: 20px auto;
 }
 
 #top-pic{ 
 text-align: center;
+}
+
+#pic-box{
+  display:inline-block;
+  vertical-align: middle; 
+}
+
+#cat-pic{
+  display:inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  border-radius: 10px ;
+  border: 1px solid white;
+  margin-left: 25px;
+}
+
+#plus-pic{
+  display:inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  margin-left: 40px;
+  
+}
+
+#tux-pic{
+  display:inline-block;
+  vertical-align: middle;
+  margin-left: 40px;
+  padding: 10px;
+  border-radius: 10px ;
+  border: 1px solid white;
+}
+
+
+#subbody{
+  margin-top: 40px;
+  font-family: 'Montserrat', arial, serif;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+  width: 90%;
+  margin: 20px auto;
+}
+
+p.sub-body{
+  line-height: 10%;
+
 }
 
 footer{
@@ -18,7 +65,7 @@ font-family: 'helvetica neue', arial, serif;
   font-weight: 100;
   color: gray;
   background-color: black;
-    width: 100%;
+  width: 100%;
   margin: 20px auto;
   border-top: groove;
 }
