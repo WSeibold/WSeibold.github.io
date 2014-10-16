@@ -8,6 +8,11 @@ body {
   margin: 20px auto;
 }
 
+.jumbotron{
+  color: black;
+}
+
+
 #top-pic{ 
 text-align: center;
 float: right;
