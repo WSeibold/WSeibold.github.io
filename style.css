@@ -12,7 +12,13 @@ body {
   color: black;
 }
 
+.row{
+  font-color: #FFFF00;
+}
 
+.goldfont{
+  font-size: #FFFF00;
+}
 #top-pic{ 
 text-align: center;
 float: right;
