@@ -11,15 +11,19 @@ body {
   color: black; 
 }
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  max-height: 550px;
-  max-width: 100%;
+.carousel-inner > .item > .comtainer > img, .carousel-inner > .item > .container > a > img {
+  /*max-width: 80%;*/
+  height: 50px;
+  left: 10%;
   text-align: center;
-  top-margin: 1000px, auto;
+  /*top-margin: 1000px, auto;*/
   overflow: visible;
 }
+
 .o-bg{
   background-color: rgba(0, 0, 0, .4);
+
+
 }
 
 .carousel{
@@ -139,64 +143,90 @@ p.sub-body{
     }
 
 
-    @media (max-width: 767px) {
+@media (max-width: 767px) {
 
-      .navbar-inner {
-        margin: -20px;
-      }
+  .navbar-inner {
+    margin: -20px;
+  }
 
-      .carousel {
-        margin-left: -20px;
-        margin-right: -20px;
-      }
-      .carousel .container {
+  .carousel {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+  .carousel .container {
 
-      }
-      .carousel .item {
-        width: 100%;
-        /*max-height: 300px;*/
-      }
+  }
+  .carousel .item {
+    width: 100%;
+    /*max-height: 300px;*/
+  }
 
-      .carousel img {
-        max-width: 100%;
-        height: auto;
-      }
-      .carousel-caption {
-        width: 65%;
-        padding: 0 10px;
-        margin-top: 100px;
-        position:fixed;
-        right:15%;
-        bottom:25%;
-        left:15%;
-        text-shadow: 0 3px 4px rgba(0,0,0,.6);
-      }
+  .carousel img {
+    max-width: 100%;
+    height: auto;
+  }
+  .carousel-caption {
+    width: 65%;
+    padding: 0 10px;
+    margin-top: 100px;
+    position:fixed;
+    right:15%;
+    bottom:25%;
+    left:15%;
+    text-shadow: 0 3px 4px rgba(0,0,0,.6);
+  }
 
-      .carousel-indicators{
-        position:fixed;
-        bottom:5%;
-      }
-      .carousel-caption h1 {
-        font-size: 30px;
-      }
-      .carousel-caption .lead,
-      .carousel-caption .btn {
-        font-size: 18px;
-      }
+  .carousel-indicators{
+    position:fixed;
+    bottom:5%;
+  }
+  .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .carousel-caption .lead,
+  .carousel-caption .btn {
+    font-size: 18px;
+  }
 
-      .marketing .span4 + .span4 {
-        margin-top: 40px;
-      }
+  .marketing .span4 + .span4 {
+    margin-top: 40px;
+  }
 
-      .featurette-heading {
-        font-size: 30px;
-      }
-      .featurette .lead {
-        font-size: 18px;
-        line-height: 1.5;
-      }
+  .featurette-heading {
+    font-size: 30px;
+  }
+  .featurette .lead {
+    font-size: 18px;
+    line-height: 1.5;
+  }
 
-    }
+}
+
+@media (min-width: 1200px){
+  .carousel-caption {
+    width: 60%;
+    padding: 0 10px;
+    margin-top: 50px;
+    position: absolute;
+    right:20%;
+    top:45%;
+    left:20%;
+    text-shadow: 0 3px 4px rgba(0,0,0,.6);
+  }
+
+  .carousel-indicators{
+    position:absolute;
+    bottom:7%;
+    text-align: center;
+  }
+
+  .img-responsive, .thumbnail>img, .thumbnail a>img, .carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    display: block;
+    max-height: 600px;
+    width: auto;
+    margin: 0 auto;
+  }
+}  
 
 footer{
 font-family: 'helvetica neue', arial, serif;
