@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 
@@ -15,7 +15,7 @@
 <body>
 
 <!-- Navbar  -->
-<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -49,39 +49,89 @@
     </div><!--/.nav-collapse -->
 
 <body>
+<br>
+<br>
 
-
+<div class="page-header" align="center">
+<h1>
+Week 4
+</h1>
+</div>
 <!-- New container for the marketing messages below -->
 
- <div class="container-fluid">
+ <div class="container">
     <div class="row">
       <div class="col-sm-4">
-        <h3>So awesome you won't believe it</h3>
+        <h3><i class="fa fa-briefcase"></i>So awesome you won't believe it</h3>
         <p>I'm gonna pass out it's so great.</p>
+        
       </div>
       <div class="col-sm-4">
-        <h3>Rainbows and Unicorns</h3>
+        <h1 align="center">
+          <a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook-square"></i></a>
+          <a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
+          <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+
+        </h1>
         <p>Puppies and kittens.</p>
       </div>
       <div class="col-sm-4">
         <h3>It's totally free</h3>
         <p>In fact, we'll pay you.</p>
+
       </div>
     </div>
 
   </div>
+  <div class="container">
+    <form action="http://learn.golearntocode.com/forms" method="get" class="col-sm-4" >
+      <div class="form-group" >
+          <lable for"Name">What's your Name</lable>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Entery your email address">
+      </div>
+      
+      <div class="form-group" class="col-sm-4" >
+          <lable for"subject">What's up</lable>
+          <input type="text" class="form-control" id="subject" name="subject" placeholder="This is the subject">
+      </div>
+      
+      <div class="form-group" class="col-sm-4" >
+          <lable for"body">Hey there hi there ho there</lable>
+          <input type="body" class="form-control"  name="body" rows="5" placeholder="Here's my body">
+      </div>
 
-<form class="col-sm-4">
-    <br>
-    <br>
-    <br>
-    <br>
-    <form action="http://www.google.com" method="GET">
-    <lable for="title">Enter stuff in this box </label>
-    <input type="text" id="title" name="title">
-    <button type="submit">Send</button>
 
-</form>
+      <div class="form-group" >
+          <lable for="title">What's this dot for? </label>
+          <input type="radio" class="form-control" id="title" name="title">
+      </div>
 
+      <div class="form-group" >
+          <lable for="dropdown">What's your favorite color? </label>
+          <input type="select" class="form-control" id="Select" name="Selectbox">
+          <ul>
+            <li>Blue</li>
+            <li>Red</li>
+            <li>White</li>
+          </ul>  
+      </div>
+
+      <div style="color:red" class="form-group" >
+          <lable for="Option 1">Option 1 </label>
+          <input type="checkbox" class="form-control" id="Option 1" name="title">
+          <lable for="Option 2">Option 2 </label>
+          <input type="checkbox" class="form-control" id="Option 2" name="title">
+
+      </div>
+
+
+      <div class="form-group" class="col-sm-4" >
+          <lable for="The secret word">What's the secret word</label>
+          <input type="text" class="form-control" id="secret" name="secret">
+        
+        <button type="submit" class="btn btn-success">Send it Now</button>
+      </div>
+    </form>
+  </div>
 </body>
 </html>

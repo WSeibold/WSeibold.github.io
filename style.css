@@ -1,15 +1,37 @@
 body {
-  font-family: 'helvetica neue', arial, serif;
-  
-  font-weight: 300;
+  font-family: 'helvetica neue', arial, sans-serif;
+  font-size: 14px; 
   color: white;
   background-color: black;
   width: 80%;
-  margin: 20px auto;
+  margin: 60px auto;
 }
 
 .jumbotron{
-  color: black;
+  color: black; 
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  max-height: 550px;
+  max-width: 100%;
+  text-align: center;
+  top-margin: 1000px, auto;
+  overflow: visible;
+}
+.o-bg{
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.carousel{
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+/*.carousel-caption{
+  width: 65%;
+  vertical-align: top;
+  margin-top: 2000px;
+*/
 }
 
 .row{
@@ -32,8 +54,6 @@ height: 300px;
   border: 4px solid yellow;
   border-radius: 5px;
   padding: 5px;
-
-
 }
 
 
@@ -85,6 +105,98 @@ height: 300px;
 p.sub-body{
   line-height: 90%;
 }
+
+@media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        width: 100%;
+        /*max-height: 300px;*/
+      }
+
+      .carousel img {
+        max-width: 100%;
+        height: auto;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 10px;
+        margin-top: 100px;
+        position:fixed;
+        right:15%;
+        bottom:25%;
+        left:15%;
+        text-shadow: 0 3px 4px rgba(0,0,0,.6);
+      }
+
+      .carousel-indicators{
+        position:fixed;
+        bottom:5%;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
 
 footer{
 font-family: 'helvetica neue', arial, serif;
