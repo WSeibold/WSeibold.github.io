@@ -1,0 +1,25 @@
+Notes
+
+maps?q=Chicago
+
+URL
+
+everything after the question mark are the query string parameters
+You can put anything after the ? in a normal page and it doesn't effect the page - it's just data being sent to the back end
+- only the back end cares about the query string
+
+The Method
+.GET
+.POST
+
+Response Code
+- Sending the data to back end
+- 404 
+- 200 OK
+- 500 Server Error
+Body 
+- HTML is the body
+	Gets can be bookmarked / you can't bookmark a post
+
+Forms are the other way to link pages together
+	
