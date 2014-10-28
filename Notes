@@ -23,3 +23,25 @@ Body
 
 Forms are the other way to link pages together
 	
+
+Week 5 - 
+- DNS system is like the phonebook - 	
+
+You need three entries in the custom.dns
+
+++ Java script
+
+50 is an integer
+"Weston" is a sting
+Java will combine them Weston50 with the + sign
+
+There are a lot of data types 
+Array is one of the most used data types - it's just a list of a stack of stuff
+	["The Great Gatsby", "The Catcher in the Rye", "Benjamin Franklin"]
+	[1, 2, 3, 4, 5]
+	["a". "b", "c"]
+
+Hash is also a popular data type
+	Jeff thinks that everything in the world is and can be represented as a hash
+	Made up of key value pairs color="red" forms with GET requests something = something else
+	{name: "McLovin", dob: "06/03/1081"}
